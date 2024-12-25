@@ -1,0 +1,35 @@
+/* Базові змінні кольорів для світлої теми */
+.light-theme {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Базові змінні кольорів для темної теми */
+.dark-theme {
+  --bg-color: #333333;
+  --text-color: #ffffff;
+}
+
+/* Застосування змінних кольорів до усіх елементів */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header,
+main {
+  padding: 16px;
+}
+
+/* button {
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+} */

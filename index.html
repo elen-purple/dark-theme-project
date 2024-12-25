@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Зміна теми</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body class="light-theme">
+    <header>
+      <h1>Сторінка зі зміною теми</h1>
+    </header>
+    <main>
+      <p>Це приклад сторінки, на якій можна перемикати темну і світлу тему.</p>
+      <!-- <button id="theme-toggle">Змінити тему</button> -->
+      <label class="label"
+        ><input
+          type="radio"
+          name="theme"
+          value="light"
+          id="light-theme"
+          checked
+        />Light theme</label
+      >
+      <label class="label"
+        ><input type="radio" name="theme" value="dark" id="dark-theme" />Dark
+        theme</label
+      >
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
